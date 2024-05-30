@@ -1,0 +1,19 @@
+.customDiv {
+    background-color: #d7eef1;
+    height: 100vh;
+    font-weight: bold;
+  }
+  
+  .navigationBar{
+    background-color: #689090;
+  }
+  
+  .image{
+    padding-right: 20px
+  }
+  
+  .list{
+    display: inline-block;
+    text-align: left;
+  }
+

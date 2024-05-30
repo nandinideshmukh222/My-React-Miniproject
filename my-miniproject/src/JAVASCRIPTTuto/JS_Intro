@@ -1,0 +1,27 @@
+import React from 'react'
+import LearnJS from './LearnJS';
+
+const JS_Intro = () => {
+  return (
+    <>
+
+    <div className='row'>
+
+    <div className='col-md-2 customDiv'>
+       <LearnJS/>
+        </div>
+    <div className='col-md-8'>
+    <h3> JS Introduction </h3>
+        <h4>JavaScript Can Change HTML Content </h4>
+       
+        <p>One of many JavaScript HTML methods is getElementById().
+
+The example below "finds" an HTML element (with id="demo"), and changes the element content (innerHTML) to "Hello JavaScript":</p>
+        </div>
+     </div>
+
+    </>
+  )
+}
+
+export default JS_Intro;
